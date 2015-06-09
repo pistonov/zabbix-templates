@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>2.0</version>
-    <date>2015-06-09T13:31:47Z</date>
+    <date>2015-06-09T13:33:43Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -973,7 +973,7 @@
                             <expression>{Juniper-WLC:icmppingloss[{#MVSNMPVALUE2},,,,].min(#2)}&gt;10</expression>
                             <name>Ping loss on {#MVSNMPVALUE1} &gt; 10%</name>
                             <url/>
-                            <status>0</status>
+                            <status>1</status>
                             <priority>1</priority>
                             <description/>
                             <type>0</type>
@@ -982,7 +982,7 @@
                             <expression>{Juniper-WLC:icmppingloss[{#MVSNMPVALUE2},,,,].min(#2)}&gt;30</expression>
                             <name>Ping loss on {#MVSNMPVALUE1} &gt; 30%</name>
                             <url/>
-                            <status>0</status>
+                            <status>1</status>
                             <priority>2</priority>
                             <description/>
                             <type>0</type>
