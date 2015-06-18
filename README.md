@@ -1,4 +1,4 @@
 Zabbix-templates
 ================
 
-http://smart-bit.livejournal.com/
+http://www.shrainer.me
