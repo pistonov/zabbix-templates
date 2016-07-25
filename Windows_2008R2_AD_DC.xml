@@ -1294,7 +1294,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Template Windows 2008R2 AD DC:service_state[DFS].last(0)}&lt;&gt;0</expression>
+            <expression>{Template Windows 2008R2 AD DC:service_state[DFS].last(0)}<>0</expression>
             <name>Active Directory DFS Replication not running</name>
             <url/>
             <status>0</status>
@@ -1304,7 +1304,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template Windows 2008R2 AD DC:service_state[NTDS].last(0)}&lt;&gt;0</expression>
+            <expression>{Template Windows 2008R2 AD DC:service_state[NTDS].last(0)}<>0</expression>
             <name>Active Directory Domain Services not running</name>
             <url/>
             <status>0</status>
@@ -1314,7 +1314,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template Windows 2008R2 AD DC:service_state[KDC].last(0)}&lt;&gt;0</expression>
+            <expression>{Template Windows 2008R2 AD DC:service_state[KDC].last(0)}<>0</expression>
             <name>Kerberos Key Distribution Center not running</name>
             <url/>
             <status>0</status>
@@ -1324,7 +1324,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template Windows 2008R2 AD DC:service_state[SAM].last(0)}&lt;&gt;0</expression>
+            <expression>{Template Windows 2008R2 AD DC:service_state[SAM].last(0)}<>0</expression>
             <name>Security Accounts Manager not running</name>
             <url/>
             <status>0</status>
@@ -1334,7 +1334,7 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{Template Windows 2008R2 AD DC:service_state[W32Time].last(0)}&lt;&gt;0</expression>
+            <expression>{Template Windows 2008R2 AD DC:service_state[W32Time].last(0)}<>0</expression>
             <name>Windows Time not running</name>
             <url/>
             <status>0</status>
