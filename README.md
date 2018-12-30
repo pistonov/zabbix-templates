@@ -1,4 +1,4 @@
-Zabbix-templates
+Zabbix templates
 ================
 
 ### Juniper-WLC.xml
